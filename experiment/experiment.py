@@ -91,7 +91,7 @@ class ExpBase:
 
         submit_df[self.target_column] = y_test_pred_all
         print(submit_df)
-        submit_df.to_csv("submit.csv", index=False)
+        submit_df.to_csv("submit1.csv", index=False)
         
     
     def get_model_config(self, *args, **kwargs):

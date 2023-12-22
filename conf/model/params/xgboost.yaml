@@ -1,6 +1,6 @@
 max_depth: 6
-n_estimators: 20
-eta: null
+n_estimators: 100
+eta: 0.09
 min_child_weight: null
 subsample: null
 colsample_bytree: null
